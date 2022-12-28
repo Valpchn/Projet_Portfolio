@@ -1,0 +1,42 @@
+
+#box_competences{ 
+    width: 60%;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.barre {
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px black;
+    grid-area: barre;
+    transform: translateY(45%);
+    }
+.progression {
+    height: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.competence {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+   
+  }
+  
+  .graphique {  display: grid;
+    grid-template-areas:
+      "pourcent barre";
+    grid-area: graphique;
+  }
+  .pourcent { grid-area: pourcent; }
