@@ -1,9 +1,9 @@
-<?php include "../php/header.php"?>
+<?php include "php/header.php"?>
 
-<?php include "../php/navbar.php"?>
+<?php include "php/navbar.php"?>
 	
-<link href="../css/competences.css" rel="stylesheet">
-		<link type="../css/competences.css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:500" />
+<link href="css/competences.css" rel="stylesheet">
+		<link type="css/competences.css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:500" />
 
 <title>Compétences</title>
 
@@ -20,7 +20,7 @@
 
 				<div id="box_competences">
     <?php 
-        $donnee=yaml_parse_file("../Yaml/competences.yaml");
+        $donnee=yaml_parse_file("Yaml/competences.yaml");
         foreach ($donnee as $titre => $tbCompetences) {
             echo "<h2>" . $titre . "</h2>";
             foreach ($tbCompetences as $competence) { ?>
@@ -50,7 +50,7 @@
 
 				<div id="box_competences">
     <?php 
-        $donnee=yaml_parse_file("../Yaml/competences2.yaml");
+        $donnee=yaml_parse_file("Yaml/competences2.yaml");
         foreach ($donnee as $titre => $tbCompetences) {
             echo "<h2>" . $titre . "</h2>";
             foreach ($tbCompetences as $competence) { ?>
@@ -80,7 +80,7 @@
 
 				<div id="box_competences">
     <?php 
-        $donnee=yaml_parse_file("../Yaml/competences1.yaml");
+        $donnee=yaml_parse_file("Yaml/competences1.yaml");
         foreach ($donnee as $titre => $tbCompetences) {
             echo "<h2>" . $titre . "</h2>";
             foreach ($tbCompetences as $competence) { ?>
@@ -106,7 +106,7 @@
 	
 </body>
 
-<?php include "../php/footer.php"?>
+<?php include "php/footer.php"?>
 
 </html>
     

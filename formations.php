@@ -1,11 +1,11 @@
-<?php include "../php/header.php"?>
+<?php include "php/header.php"?>
 
-<?php include "../php/navbar.php"?>
+<?php include "php/navbar.php"?>
 	
 <header>
             <h6>Formation</h6>
             <div class="bouton2">
-                <a href="../pdf/cv.pdf">Télécharger mon CV</a>
+                <a href="pdf/cv.pdf">Télécharger mon CV</a>
             </div>
 </header>
         
@@ -72,6 +72,6 @@
             </section>
 </body>
 
-<?php include "../php/footer.php"?>
+<?php include "php/footer.php"?>
 
 </html>

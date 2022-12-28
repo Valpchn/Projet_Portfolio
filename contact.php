@@ -1,13 +1,13 @@
 <html>
 <head>
 
-<?php include "../php/header.php"?>
+<?php include "php/header.php"?>
 
-<?php include "../php/navbar.php"?>
+<?php include "php/navbar.php"?>
 
-<link href="../CSS/contact.css" rel="stylesheet">
-		<link type="../CSS/contact.css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:500" />
-<link rel="stylesheet" href="../CSS/contact.css">
+<link href="CSS/contact.css" rel="stylesheet">
+		<link type="CSS/contact.css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:500" />
+<link rel="stylesheet" href="CSS/contact.css">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <title>Formulaire de contact</title>
@@ -52,6 +52,6 @@ $retour = mail("valentin.pouchin@sts-sio-caen.info", "Sujet", $_POST["message"],
 
 </body>
 
-<?php include "../php/footer.php"?>
+<?php include "php/footer.php"?>
 
 </html>
